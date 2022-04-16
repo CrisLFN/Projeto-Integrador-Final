@@ -1,0 +1,40 @@
+/*
+*
+* @author Cristiano Luiz
+* @version 0.1
+*/
+
+/* ===================== Layout ===================== */
+
+@charset "ISO-8859-1";
+
+html, body {
+	height:100%;
+}
+
+body {
+	background-color: #cfb584;
+}
+
+.cabecalho {
+	
+}
+
+.conteudo {
+	flex: 1 0 auto;
+}
+
+.rodape {
+	flex-shrink: 0;
+    width:100%;
+    color: white;
+    text-align: center;
+}
+
+.contatos {
+	color: #cfb584;
+}
+
+.contatos:hover {
+	color: white;
+}
